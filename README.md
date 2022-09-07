@@ -4,8 +4,9 @@ This project stems from a (much delayed) collaborative project with a friend fro
 
 ## Links 
 
-Blog: <a href="micl.dev/pcbs/friendly-keyboard"> Link </a>
-Hackaday: <a href="hackaday.io/project/187157-friendly-keyboard"> Link </a>
+Blog: [Link](micl.dev/pcbs/friendly-keyboard)
+
+Hackaday: [Link](hackaday.io/project/187157-friendly-keyboard)
 
 ## Features 
 
