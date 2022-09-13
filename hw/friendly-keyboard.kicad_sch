@@ -747,6 +747,18 @@
     (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/010167c7-0ac6-4a82-919b-a06aa46165dd"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/109e81e6-30d3-449e-81d1-400a18cab8e4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/27f6dc53-027e-4439-98ff-c213d101a778"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/7d5b74a3-39f9-48ff-8f34-f7c3d37a8f08"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/0885d0cf-60a7-4acf-ad97-b0618d0c7e11"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/0ecbed3a-41ae-4262-8110-6563a9b94b1e"
       (reference "C?") (unit 1) (value "0.5pF") (footprint "")
     )
@@ -762,11 +774,17 @@
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/48cdfafe-9c42-44ea-88f9-7099074b5eb8"
       (reference "C?") (unit 1) (value "0.8pF") (footprint "")
     )
+    (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/7df71026-493e-423c-9f3a-3e5f24e0a5b3"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/acba2a5b-f3ef-4fa5-a821-afd25646e9ff"
       (reference "C?") (unit 1) (value "10pF, NP0, 0.1%") (footprint "")
     )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/bd890f71-c021-4314-85ee-6fd80773bb7f"
       (reference "C?") (unit 1) (value "10pF, NP0, 0.1%") (footprint "")
+    )
+    (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/da8043cb-e6c0-47e9-9517-313716d7031d"
+      (reference "C?") (unit 1) (value "C") (footprint "")
     )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/e30bbb40-f60a-4caa-a1e9-26987c3989bb"
       (reference "C?") (unit 1) (value "22.8pF, NP0, 1%") (footprint "")
@@ -782,6 +800,9 @@
     )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/f01432a8-9f10-45f4-bac6-6835615e6554"
       (reference "L?") (unit 1) (value "4.7nH") (footprint "")
+    )
+    (path "/8573b0fd-89cc-41d3-aea1-2aec3a4f41a4/b490d844-18b3-4b92-8760-23e500b72977"
+      (reference "R?") (unit 1) (value "5m${R}, 5A") (footprint "")
     )
     (path "/4ddfff32-41fb-4d7f-8410-57d44ca4a5ab"
       (reference "U?") (unit 1) (value "CY8C9540") (footprint "1.Logic.IO_Expanders:CY8C9540A-24PVXI")
