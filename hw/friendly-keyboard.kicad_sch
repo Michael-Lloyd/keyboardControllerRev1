@@ -385,7 +385,13 @@
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/1281f366-ee99-4755-b291-960b73d67ed2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/1f96f10b-09c4-43f2-8444-74c36475c53d"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/1ffc85c2-1bb4-43dc-890a-274099410033"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/2638a179-bec3-4642-ae1a-3fb8edb7bedf"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/27492957-01bb-479b-8a19-cab5f4451084"
@@ -418,6 +424,9 @@
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/2c2f0c34-5ee4-42b9-b2ab-d69146266fa2"
       (reference "C?") (unit 1) (value "22.8pF, NP0, 1%") (footprint "")
     )
+    (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/2ec1a43a-355b-46af-83a6-ac31b5287529"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/48cdfafe-9c42-44ea-88f9-7099074b5eb8"
       (reference "C?") (unit 1) (value "0.8pF") (footprint "")
     )
@@ -444,6 +453,9 @@
     )
     (path "/4ddfff32-41fb-4d7f-8410-57d44ca4a5ab"
       (reference "U?") (unit 1) (value "CY8C9540") (footprint "1.Logic.IO_Expanders:CY8C9540A-24PVXI")
+    )
+    (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/9bad6fb2-b82e-4207-baa0-da161ddef2e8"
+      (reference "U?") (unit 1) (value "W25Q128JVSS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
     (path "/a9b596e6-e9c2-406e-b1ff-0f528e1fa26a/c4fdc52d-7d0b-4e32-b455-42feeaa12419"
       (reference "U?") (unit 1) (value "nRF52840-QAAA") (footprint "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm")
