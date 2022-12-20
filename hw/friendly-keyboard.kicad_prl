@@ -36,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -62,7 +61,7 @@
       35,
       36
     ],
-    "visible_layers": "000f3fc_80000007",
+    "visible_layers": "000f3dc_8000001f",
     "zone_display_mode": 0
   },
   "meta": {
@@ -76,23 +75,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": 960,
+          "maximized": false,
+          "pos_x": 2880,
           "pos_y": 18,
-          "size_x": 1280,
-          "size_y": 670
-        }
-      },
-      {
-        "name": "friendly-keyboard.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 2240,
-          "pos_y": 180,
-          "size_x": 1280,
-          "size_y": 720
+          "size_x": 954,
+          "size_y": 1038
         }
       }
     ]
