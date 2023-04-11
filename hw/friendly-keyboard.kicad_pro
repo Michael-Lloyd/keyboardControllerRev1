@@ -905,6 +905,74 @@
     [
       "facac7ae-a8b7-40c9-80fb-c9ce3ae3187a",
       ""
+    ],
+    [
+      "be32286e-8e61-45a3-845f-7c0ba46bed6c",
+      "RF Section"
+    ],
+    [
+      "95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5",
+      "Power"
+    ],
+    [
+      "f46f283f-dae4-4369-9c64-50f5e94c24a3",
+      "Battery Management"
+    ],
+    [
+      "f01fba6a-a31c-479c-a8ab-d29cba2e9e02",
+      "USB Interface"
+    ],
+    [
+      "8643f529-6d90-4441-a37c-8a34a66c39d0",
+      "Microcontroller"
+    ],
+    [
+      "6200ea50-1497-45ee-a68c-9ec506bbf84a",
+      "IO Expansion"
+    ],
+    [
+      "9e685f1c-fa3c-4d44-bdfe-b187bdfa7536",
+      "GPIO"
+    ],
+    [
+      "d5979401-0fc1-4250-b90a-3a68afe21242",
+      "Power Inputs"
+    ],
+    [
+      "3ca822f3-602f-4b6d-8afc-a050cce1b178",
+      "Clocks"
+    ],
+    [
+      "84bb5d59-8ecf-4baf-a5c8-3c6601f63a3f",
+      "Memory"
+    ],
+    [
+      "1b363b28-ef56-4dd8-a933-7ba7c62c9c0c",
+      "RF Interface"
+    ],
+    [
+      "c9850f44-ff6c-4f1c-b22f-670ae36afbff",
+      "Communication Ifx"
+    ],
+    [
+      "82aa2616-3f92-4d3f-a9c6-73d39649390f",
+      "Port Expanders (Array)"
+    ],
+    [
+      "bf9f8fe9-4fee-4cf4-aaec-d1551a513d5f",
+      "IO Expander 1"
+    ],
+    [
+      "d11cff3a-9975-4763-ba3a-ff55483b1f21",
+      "IO Expander 2"
+    ],
+    [
+      "7c88798f-e76e-4073-843d-354b9ad57f89",
+      "IO Expander 3"
+    ],
+    [
+      "b9a80e9a-69d8-419d-bf29-e4473804ac8b",
+      "Mechanical"
     ]
   ],
   "text_variables": {

@@ -1,0 +1,48 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b33eaffb-3b45-480b-8004-48a37ea35702)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 25.4) (size 25.4 25.4)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 82aa2616-3f92-4d3f-a9c6-73d39649390f)
+    (property "Sheetname" "Port Expanders (Array)" (at 38.1 38.1 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "port_expanders.kicad_sch" (at 25.4 64.0846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "friendly-keyboard"
+        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a" (page "2"))
+        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0" (page "12"))
+        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/6200ea50-1497-45ee-a68c-9ec506bbf84a" (page "14"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 63.5) (size 25.4 25.4)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c9850f44-ff6c-4f1c-b22f-670ae36afbff)
+    (property "Sheetname" "Communication Ifx" (at 38.1 76.2 0)
+      (effects (font (size 2.54 2.54) bold))
+    )
+    (property "Sheetfile" "communication_interface.kicad_sch" (at 25.4 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "friendly-keyboard"
+        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a" (page "2"))
+        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0" (page "12"))
+        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/6200ea50-1497-45ee-a68c-9ec506bbf84a" (page "13"))
+      )
+    )
+  )
+)
