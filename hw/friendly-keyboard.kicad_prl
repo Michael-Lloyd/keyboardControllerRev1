@@ -1,24 +1,81 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
-    "auto_track_width": true,
-    "hidden_nets": [],
-    "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "active_layer_preset": "All Layers",
+    "auto_track_width": false,
+    "hidden_netclasses": [],
+    "hidden_nets": [
+      "VBUS",
+      "VDD",
+      "Net-(C31-Pad1)",
+      "Net-(C15-Pad2)",
+      "RF_LINE",
+      "Net-(C5-Pad2)",
+      "Net-(C6-Pad2)",
+      "/ANT1_OUT",
+      "/ANT2_OUT",
+      "+BATT",
+      "Net-(C9-Pad2)",
+      "/nRF5340-QKAA-R7/NRF.P1_13",
+      "/nRF5340-QKAA-R7/NRF.P0_03",
+      "/nRF5340-QKAA-R7/NRF.P0_06",
+      "/nRF5340-QKAA-R7/NRF.P0_07",
+      "/nRF5340-QKAA-R7/NRF.P1_02",
+      "/nRF5340-QKAA-R7/NRF.P0_28",
+      "/nRF5340-QKAA-R7/NRF.P1_03",
+      "/nRF5340-QKAA-R7/NRF.P0_08",
+      "/nRF5340-QKAA-R7/NRF.P0_09",
+      "/nRF5340-QKAA-R7/NRF.P0_10",
+      "/nRF5340-QKAA-R7/NRF.P0_11",
+      "/nRF5340-QKAA-R7/NRF.P0_12",
+      "/nRF5340-QKAA-R7/NRF.P0_20",
+      "/nRF5340-QKAA-R7/NRF.P0_22",
+      "/nRF5340-QKAA-R7/NRF.P0_23",
+      "/nRF5340-QKAA-R7/NRF.P1_05",
+      "/nRF5340-QKAA-R7/NRF.P1_07",
+      "/nRF5340-QKAA-R7/NRF.P1_09",
+      "/nRF5340-QKAA-R7/NRF.P0_25",
+      "/nRF5340-QKAA-R7/NRF.P0_27",
+      "/nRF5340-QKAA-R7/NRF.P0_19",
+      "/nRF5340-QKAA-R7/NRF.P0_21",
+      "/nRF5340-QKAA-R7/NRF.P1_04",
+      "/nRF5340-QKAA-R7/NRF.P1_06",
+      "/nRF5340-QKAA-R7/NRF.P1_08",
+      "/nRF5340-QKAA-R7/NRF.P0_24",
+      "/nRF5340-QKAA-R7/NRF.P0_26",
+      "/nRF5340-QKAA-R7/NRF.P1_15",
+      "/nRF5340-QKAA-R7/NRF.P1_14",
+      "/nRF5340-QKAA-R7/NRF.P1_12",
+      "/nRF5340-QKAA-R7/NRF.P1_11",
+      "/nRF5340-QKAA-R7/NRF.P0_31",
+      "/nRF5340-QKAA-R7/NRF.P0_30",
+      "/nRF5340-QKAA-R7/NRF.P1_00",
+      "/nRF5340-QKAA-R7/NRF.P0_00",
+      "/nRF5340-QKAA-R7/NRF.P1_01",
+      "/nRF5340-QKAA-R7/NRF.P0_01",
+      "/nRF5340-QKAA-R7/NRF.P1_10",
+      "/nRF5340-QKAA-R7/NRF.P0_29",
+      "/nRF5340-QKAA-R7/NRF.P0_04",
+      "/nRF5340-QKAA-R7/NRF.P0_02",
+      "/nRF5340-QKAA-R7/NRF.P0_05",
+      "+5VP"
+    ],
+    "high_contrast_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
-      "vias": 1.0,
-      "zones": 0.6
+      "vias": 0.6100000143051147,
+      "zones": 0.5099999904632568
     },
-    "ratsnest_display_mode": 0,
+    "ratsnest_display_mode": 1,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -36,9 +93,9 @@
       8,
       9,
       10,
+      11,
       12,
       13,
-      14,
       15,
       16,
       17,
@@ -59,9 +116,11 @@
       33,
       34,
       35,
-      36
+      36,
+      39,
+      40
     ],
-    "visible_layers": "000f3dc_8000001f",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -69,19 +128,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "friendly-keyboard.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 2880,
-          "pos_y": 18,
-          "size_x": 954,
-          "size_y": 1038
-        }
-      }
-    ]
+    "files": []
   }
 }

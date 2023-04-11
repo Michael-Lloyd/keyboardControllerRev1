@@ -1,0 +1,20 @@
+(footprint "NetTie_RF_FL" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 48d46fc5-2b3a-42d7-9d64-30a0326b2900)
+  )
+  (fp_text value "NetTie_RF_FL" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f53c1db5-27e0-48c3-848a-ced03689c276)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0cae9db5-bcf4-47fa-8f1a-2cb27f123023)
+  )
+  (fp_rect (start -0.1 -0.35) (end 0 0.35) (layer "F.Mask") (width 0) (fill solid) (tstamp 6e940b2b-0bc7-4123-af96-400d5c5c1dc4))
+  (fp_rect (start -0.1 -0.35) (end 0.1 0.35) (layer "F.CrtYd") (width 0.01) (fill none) (tstamp c85c719f-acaf-4fb4-afe9-fec6ebb2c480))
+  (pad "1" smd rect (at -0.05 0) (size 0.1 0.7) (layers "F.Cu") (tstamp da65ff71-cd8e-4b0a-9f90-8c7ca85653e8))
+  (pad "2" smd rect (at 0.05 0) (size 0.1 0.7) (layers "F.Cu") (tstamp 194d6133-06bb-4282-ac20-6e88f409b439))
+)

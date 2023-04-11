@@ -17,4 +17,6 @@
   (lib (name "1.Power.PMICs")(type "KiCad")(uri "${CUSTOM_LIBDIR}/0.Power/1.PMICs/FP.pretty")(options "")(descr ""))
   (lib (name "1.Power.Regulators")(type "KiCad")(uri "${CUSTOM_LIBDIR}/0.Power/1.Regulators/FP.pretty")(options "")(descr ""))
   (lib (name "1.Power.VReferences")(type "KiCad")(uri "${CUSTOM_LIBDIR}/0.Power/1.VReferences/FP.pretty")(options "")(descr ""))
+  (lib (name "1.Sensors.Gyroscopes")(type "KiCad")(uri "${CUSTOM_LIBDIR}/0.Sensors/1.Gyroscopes/FP.pretty")(options "")(descr ""))
+  (lib (name "rf")(type "KiCad")(uri "${KIPRJMOD}/fab/friendly-keyboard-rfexports/footprints/rf.pretty")(options "")(descr ""))
 )
