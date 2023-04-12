@@ -619,68 +619,6 @@
         )
       )
     )
-    (symbol "Device:D_Zener" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D_Zener" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Zener diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D_Zener_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-            (xy -0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-            (xy -1.27 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "D_Zener_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
@@ -883,9 +821,6 @@
   (junction (at 142.24 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 4bbfee1e-1799-43ae-adea-e3631a57c01b)
   )
-  (junction (at 205.74 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid 63272b9b-0f3e-43bd-8078-6cff9a68241a)
-  )
   (junction (at 224.79 101.6) (diameter 0) (color 0 0 0 0)
     (uuid 665fda85-97e8-42b3-b595-1b0dc73e459c)
   )
@@ -965,7 +900,7 @@
     (stroke (width 0) (type default))
     (uuid 10989c15-f440-4cd8-8668-d6ccbae748fd)
   )
-  (wire (pts (xy 181.61 101.6) (xy 205.74 101.6))
+  (wire (pts (xy 181.61 101.6) (xy 212.09 101.6))
     (stroke (width 0) (type default))
     (uuid 10d01d7f-566d-4254-bd9a-ad95d7e83f02)
   )
@@ -1023,17 +958,9 @@
     (uuid 23a67433-29c0-4a2c-859a-3fd05f1b300b)
   )
 
-  (wire (pts (xy 205.74 101.6) (xy 212.09 101.6))
-    (stroke (width 0) (type default))
-    (uuid 26450b1e-db52-4f0a-b97d-413d9115a5f9)
-  )
   (wire (pts (xy 237.49 120.65) (xy 237.49 129.54))
     (stroke (width 0) (type default))
     (uuid 2fd0f5c8-3e93-4149-b8a5-aeaa33df3d03)
-  )
-  (wire (pts (xy 205.74 101.6) (xy 205.74 104.14))
-    (stroke (width 0) (type default))
-    (uuid 33b74092-7bfd-4974-a520-4a5ad193bc2b)
   )
   (wire (pts (xy 110.49 124.46) (xy 110.49 139.7))
     (stroke (width 0) (type default))
@@ -1146,10 +1073,6 @@
   (wire (pts (xy 97.79 73.66) (xy 97.79 76.2))
     (stroke (width 0) (type default))
     (uuid 7cb12eba-0312-4fb6-bab1-2cee3a8b7ee2)
-  )
-  (wire (pts (xy 205.74 111.76) (xy 205.74 114.3))
-    (stroke (width 0) (type default))
-    (uuid 7cd782bd-1bf4-4ac7-9077-d6af1a64e60d)
   )
   (polyline (pts (xy 53.34 116.84) (xy 54.61 118.11))
     (stroke (width 0) (type default))
@@ -1469,7 +1392,7 @@
   (symbol (lib_id "Device:R") (at 237.49 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0132d0cc-be53-4e72-b8ca-07f510c25491)
-    (property "Reference" "R?" (at 239.268 107.3063 0)
+    (property "Reference" "R15" (at 239.268 107.3063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "887k${R}" (at 239.268 109.2273 0)
@@ -1495,7 +1418,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "R?") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "R?") (unit 1)
@@ -1507,7 +1430,7 @@
   (symbol (lib_id "0_power_symbols:PGND") (at 97.79 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03189f2e-074c-49e7-87e3-8594d194a8a6)
-    (property "Reference" "#PWR030" (at 97.79 157.48 0)
+    (property "Reference" "#PWR016" (at 97.79 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 97.663 156.1291 0)
@@ -1523,7 +1446,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1532,7 +1455,7 @@
   (symbol (lib_id "0_power_symbols:DGND") (at 269.24 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 035cb230-f12b-4d69-8de0-9197eee64653)
-    (property "Reference" "#PWR028" (at 269.24 152.4 0)
+    (property "Reference" "#PWR020" (at 269.24 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "DGND" (at 269.24 149.2965 0)
@@ -1548,7 +1471,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -1557,7 +1480,7 @@
   (symbol (lib_id "Device:R") (at 186.69 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 076f138e-eeca-4962-8d38-003a2716138c)
-    (property "Reference" "R?" (at 188.468 120.0063 0)
+    (property "Reference" "R14" (at 188.468 120.0063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "549k${R}" (at 188.468 121.9273 0)
@@ -1574,39 +1497,10 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "R?") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Zener") (at 205.74 107.95 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0ab323dc-8eaf-4479-ad04-6470a26d4d70)
-    (property "Reference" "D?" (at 207.772 107.3063 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "D_{1}" (at 207.772 109.2273 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SMA" (at 205.74 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 205.74 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 602a969f-a7b5-4f43-8531-15b9785977b4))
-    (pin "2" (uuid 375ecf3b-d680-4aea-97f6-52aba63d3b08))
-    (instances
-      (project "friendly-keyboard"
-        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "D?") (unit 1)
-        )
-        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
-          (reference "D?") (unit 1)
         )
       )
     )
@@ -1615,7 +1509,7 @@
   (symbol (lib_id "Device:C") (at 260.35 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12f71cd1-c2bd-4f93-8897-bd9c0f3b27af)
-    (property "Reference" "C?" (at 263.271 120.0063 0)
+    (property "Reference" "C12" (at 263.271 120.0063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 263.271 121.9273 0)
@@ -1641,7 +1535,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "C?") (unit 1)
+          (reference "C12") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "C?") (unit 1)
@@ -1653,7 +1547,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 97.79 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 213efdee-472a-4472-a6b2-959fa42b9221)
-    (property "Reference" "C?" (at 100.711 119.3713 0)
+    (property "Reference" "C6" (at 100.711 119.3713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47${uF}" (at 100.711 121.2923 0)
@@ -1679,7 +1573,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "C?") (unit 1)
@@ -1691,7 +1585,7 @@
   (symbol (lib_id "0_power_symbols:PGND") (at 63.5 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24dc6baf-fd43-4acd-ac08-a20ba7da90c6)
-    (property "Reference" "#PWR08" (at 63.5 121.92 0)
+    (property "Reference" "#PWR014" (at 63.5 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 63.373 120.5691 0)
@@ -1707,7 +1601,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1716,7 +1610,7 @@
   (symbol (lib_id "0_power_symbols:+3.3V") (at 269.24 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e5734fd-15f5-4599-ad05-ae3eab6487a9)
-    (property "Reference" "#PWR032" (at 269.24 77.47 0)
+    (property "Reference" "#PWR018" (at 269.24 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 269.24 70.1581 0)
@@ -1732,7 +1626,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1741,7 +1635,7 @@
   (symbol (lib_id "Device:C") (at 224.79 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33443f94-3248-42c8-a630-1ba2698f3adc)
-    (property "Reference" "C?" (at 227.711 107.3063 0)
+    (property "Reference" "C10" (at 227.711 107.3063 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10pF" (at 227.711 109.2273 0)
@@ -1767,7 +1661,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "C?") (unit 1)
+          (reference "C10") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "C?") (unit 1)
@@ -1779,7 +1673,7 @@
   (symbol (lib_id "0_power_symbols:+5.0V") (at 63.5 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a523fd2-dbd4-4a56-bcb2-e22ea01d9b24)
-    (property "Reference" "#PWR07" (at 63.5 99.06 0)
+    (property "Reference" "#PWR013" (at 63.5 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5.0V" (at 63.5 91.7481 0)
@@ -1795,7 +1689,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1804,7 +1698,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 247.65 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5907ede5-8113-43a0-875b-ba248d79eeb0)
-    (property "Reference" "C?" (at 250.571 119.3713 0)
+    (property "Reference" "C11" (at 250.571 119.3713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22${uF}" (at 250.571 121.2923 0)
@@ -1830,7 +1724,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "C?") (unit 1)
+          (reference "C11") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "C?") (unit 1)
@@ -1842,7 +1736,7 @@
   (symbol (lib_id "0_power_symbols:+3.3VA") (at 256.54 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d223b24-4df6-45e1-afb3-4ad30d4a5a8f)
-    (property "Reference" "#PWR033" (at 256.54 77.47 0)
+    (property "Reference" "#PWR017" (at 256.54 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 256.54 70.1581 0)
@@ -1858,7 +1752,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1867,7 +1761,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 262.89 146.05 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6205c149-74c2-47d8-96b2-b9147cfcfade)
-    (property "Reference" "NT?" (at 262.89 144.9611 0)
+    (property "Reference" "NT2" (at 262.89 144.9611 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 262.89 144.9611 0)
@@ -1884,7 +1778,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "NT?") (unit 1)
+          (reference "NT2") (unit 1)
         )
       )
     )
@@ -1893,7 +1787,7 @@
   (symbol (lib_id "0_power_symbols:PGND") (at 33.02 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65febd7c-9c6f-483d-a460-3161c6bca44e)
-    (property "Reference" "#PWR04" (at 33.02 123.19 0)
+    (property "Reference" "#PWR012" (at 33.02 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PGND" (at 32.893 121.8391 0)
@@ -1909,7 +1803,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1918,7 +1812,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 262.89 139.7 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69566dfc-81f8-474d-ac33-b2ddce78f833)
-    (property "Reference" "NT?" (at 262.89 138.6111 0)
+    (property "Reference" "NT1" (at 262.89 138.6111 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 262.89 138.6111 0)
@@ -1935,7 +1829,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "NT?") (unit 1)
+          (reference "NT1") (unit 1)
         )
       )
     )
@@ -1944,7 +1838,7 @@
   (symbol (lib_id "Device:R") (at 237.49 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 768909cd-7f64-4e28-9884-fd27d7551689)
-    (property "Reference" "R?" (at 239.268 132.7063 0)
+    (property "Reference" "R16" (at 239.268 132.7063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "280k${R}" (at 239.268 134.6273 0)
@@ -1970,7 +1864,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "R?") (unit 1)
+          (reference "R16") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "R?") (unit 1)
@@ -1982,7 +1876,7 @@
   (symbol (lib_id "Device:C") (at 110.49 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82bf98fb-62a5-4138-acbc-82da57d259a0)
-    (property "Reference" "C?" (at 113.411 120.0063 0)
+    (property "Reference" "C7" (at 113.411 120.0063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1${uF}" (at 113.411 121.9273 0)
@@ -1999,7 +1893,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "C?") (unit 1)
@@ -2011,7 +1905,7 @@
   (symbol (lib_id "0_power_symbols:VUSB") (at 33.02 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 894a6325-bf31-4ec3-9e2b-ebea0b23cd4a)
-    (property "Reference" "#PWR03" (at 33.02 100.33 0)
+    (property "Reference" "#PWR011" (at 33.02 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VUSB" (at 33.02 93.0181 0)
@@ -2027,7 +1921,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -2036,7 +1930,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 262.89 152.4 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e8982a4-55a3-497b-a7c4-02892f9e890b)
-    (property "Reference" "NT?" (at 262.89 151.3111 0)
+    (property "Reference" "NT3" (at 262.89 151.3111 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 262.89 151.3111 0)
@@ -2053,7 +1947,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "NT?") (unit 1)
+          (reference "NT3") (unit 1)
         )
       )
     )
@@ -2062,7 +1956,7 @@
   (symbol (lib_id "Device:R") (at 148.59 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f4df52d-bd6e-4c88-86e7-8201b6a310cb)
-    (property "Reference" "R?" (at 150.368 120.0063 0)
+    (property "Reference" "R12" (at 150.368 120.0063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "16.2k${R}" (at 150.368 121.9273 0)
@@ -2079,7 +1973,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "R?") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "R?") (unit 1)
@@ -2091,7 +1985,7 @@
   (symbol (lib_id "0_power_symbols:AGND") (at 269.24 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90b1d849-8d29-4493-8d01-6163f319b237)
-    (property "Reference" "#PWR027" (at 269.24 146.05 0)
+    (property "Reference" "#PWR019" (at 269.24 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "AGND" (at 269.24 143.8355 0)
@@ -2107,7 +2001,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2135,7 +2029,7 @@
           (reference "#FLG05") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "#FLG02") (unit 1)
@@ -2147,7 +2041,7 @@
   (symbol (lib_id "0_power_symbols:+5.0V") (at 97.79 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a57e7828-1b87-4b8a-8659-8a40d5834b74)
-    (property "Reference" "#PWR031" (at 97.79 77.47 0)
+    (property "Reference" "#PWR015" (at 97.79 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5.0V" (at 97.79 70.1581 0)
@@ -2163,7 +2057,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2172,7 +2066,7 @@
   (symbol (lib_id "Device:R") (at 148.59 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b91d1152-adb7-4ff3-ae6a-909f3dc71ede)
-    (property "Reference" "R?" (at 148.59 97.5741 90)
+    (property "Reference" "R11" (at 148.59 97.5741 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0${R}" (at 148.59 99.4951 90)
@@ -2189,7 +2083,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "R?") (unit 1)
@@ -2198,35 +2092,10 @@
     )
   )
 
-  (symbol (lib_id "0_power_symbols:PGND") (at 205.74 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ba1dee93-710f-45e1-989b-d30657cac96a)
-    (property "Reference" "#PWR034" (at 205.74 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PGND" (at 205.613 118.0291 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 205.74 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 205.74 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3f3078df-e08d-4f02-8d67-1dfeece158ba))
-    (instances
-      (project "friendly-keyboard"
-        (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR034") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "0_power_symbols:GND") (at 269.24 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc478163-2a64-46df-a0aa-384abac98c38)
-    (property "Reference" "#PWR029" (at 269.24 158.75 0)
+    (property "Reference" "#PWR021" (at 269.24 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 156.2815 0)
@@ -2242,7 +2111,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2251,7 +2120,7 @@
   (symbol (lib_id "Device:L") (at 215.9 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc8023bc-b389-4b22-8021-df3f2a916d31)
-    (property "Reference" "L?" (at 215.9 98.0847 90)
+    (property "Reference" "L4" (at 215.9 98.0847 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2${uH}" (at 215.9 100.0057 90)
@@ -2268,7 +2137,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "L?") (unit 1)
+          (reference "L4") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "L?") (unit 1)
@@ -2280,7 +2149,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 123.19 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfaaaa7a-09f0-48fd-b204-ae3e7d4aa830)
-    (property "Reference" "C?" (at 126.111 119.3713 0)
+    (property "Reference" "C8" (at 126.111 119.3713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10${uF}" (at 126.111 121.2923 0)
@@ -2306,7 +2175,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "C?") (unit 1)
@@ -2318,7 +2187,7 @@
   (symbol (lib_id "0.Project:LTC3411AEDD-PBF") (at 167.64 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4af4d89-e2f3-478e-ad3a-94c8247463f5)
-    (property "Reference" "U?" (at 167.64 88.5571 0)
+    (property "Reference" "U2" (at 167.64 88.5571 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTC3411AEDD" (at 167.64 90.4781 0)
@@ -2343,7 +2212,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "U?") (unit 1)
+          (reference "U2") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "U?") (unit 1)
@@ -2355,7 +2224,7 @@
   (symbol (lib_id "Device:C") (at 148.59 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3cde3d1-48ab-4c39-80e9-329e7a09d16e)
-    (property "Reference" "C?" (at 151.511 132.7063 0)
+    (property "Reference" "C9" (at 151.511 132.7063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1000pF" (at 151.511 134.6273 0)
@@ -2372,7 +2241,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "C?") (unit 1)
@@ -2384,7 +2253,7 @@
   (symbol (lib_id "Device:R") (at 186.69 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fad0bd43-f7d0-4765-ac36-cf91d2f0a2df)
-    (property "Reference" "R?" (at 188.468 81.9063 0)
+    (property "Reference" "R13" (at 188.468 81.9063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k${R}" (at 188.468 83.8273 0)
@@ -2401,7 +2270,7 @@
     (instances
       (project "friendly-keyboard"
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/95bc3fdd-9ffc-4e8d-84f5-e652d76a78d5"
-          (reference "R?") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/facac7ae-a8b7-40c9-80fb-c9ce3ae3187a/8643f529-6d90-4441-a37c-8a34a66c39d0"
           (reference "R?") (unit 1)

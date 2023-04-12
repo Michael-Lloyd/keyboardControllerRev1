@@ -480,10 +480,6 @@
       "version": 3
     },
     "net_colors": {
-      "+5VP": "rgb(255, 0, 0)",
-      "+BATT": "rgb(255, 0, 255)",
-      "Net-(C9-Pad2)": "rgb(255, 0, 0)",
-      "VBUS": "rgb(255, 0, 0)",
       "VDD": "rgb(255, 0, 0)"
     },
     "netclass_assignments": null,
